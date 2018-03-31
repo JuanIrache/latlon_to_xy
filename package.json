@@ -1,0 +1,27 @@
+{
+  "name": "latlon_to_xy",
+  "version": "1.0.0",
+  "description": "Converts Web Mercator coordinates to screen pixels and back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanIrache/latlon_to_xy.git"
+  },
+  "keywords": [
+    "coordinates",
+    "mercator",
+    "latitude",
+    "longitude",
+    "x",
+    "y"
+  ],
+  "author": "Juan Irache Duesca <juan@tailornadwayne.com> (http://tailorandwayne.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanIrache/latlon_to_xy/issues"
+  },
+  "homepage": "https://github.com/JuanIrache/latlon_to_xy#readme"
+}
