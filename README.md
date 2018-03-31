@@ -19,10 +19,10 @@ let conversions = require('latlon_to_xy');
 conversions.setupConversor(tile_height,zoom,center_longitude,center_latitude);
 
 //once the values are set, only one value is required for all calculations, and an alternative center value is optional
-conversions.lonToX(lon,altC);//converts longitude to x, an alternative center can be provided in lon units
-conversions.latToY(lat,altC);//converts latitude to y, an alternative center can be provided in lat units
-conversions.xToLon(x,altC);//converts x to longitude, an alternative center can be provided in lon units
-conversions.yToLat(y,altC);//converts y to latitude, an alternative center can be provided in lat units
+let x = conversions.lonToX(lon,altC);//converts longitude to x, an alternative center can be provided in lon units
+let y = conversions.latToY(lat,altC);//converts latitude to y, an alternative center can be provided in lat units
+let lon = conversions.xToLon(x,altC);//converts x to longitude, an alternative center can be provided in lon units
+let lat = conversions.yToLat(y,altC);//converts y to latitude, an alternative center can be provided in lat units
 ```
 
 ## TODO
