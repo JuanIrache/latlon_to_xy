@@ -1,6 +1,6 @@
 {
   "name": "latlon_to_xy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts Web Mercator coordinates to screen pixels and back",
   "main": "index.js",
   "scripts": {
