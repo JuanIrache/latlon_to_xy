@@ -7,7 +7,7 @@ Converts Web Mercator coordinates to screen pixels and back
 
 Using npm:
 ```shell
-$ npm install --save latlon_to_xy
+$ npm install latlon_to_xy
 ```
 
 ## Usage
