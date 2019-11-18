@@ -2,7 +2,7 @@
 
 Converts Web Mercator coordinates to screen pixels and back
 
-- Used for creating this SRT log viewer: https://djitelemetryoverlay.com/
+- Used for creating the SRT log viewer in https://djitelemetryoverlay.com/
 
 ## Installation
 
